@@ -1,0 +1,746 @@
+{
+  "Version": "v0.4.4",
+  "ProjectStart": "2025-10-24T00:00:00+01:00",
+  "Today": "2025-10-24T00:00:00+01:00",
+  "DependentActivities": [
+    {
+      "Activity": {
+        "Id": 1,
+        "Name": "Task A",
+        "Notes": "",
+        "TargetWorkStreams": [],
+        "TargetResources": [
+          1,
+          2
+        ],
+        "TargetResourceOperator": 1,
+        "AllocatedToResources": [
+          1
+        ],
+        "CanBeRemoved": false,
+        "HasNoCost": false,
+        "HasNoBilling": false,
+        "HasNoEffort": false,
+        "HasNoRisk": false,
+        "Duration": 5,
+        "FreeSlack": 0,
+        "EarliestStartTime": 0,
+        "LatestFinishTime": 5,
+        "Trackers": []
+      },
+      "Dependencies": [],
+      "PlanningDependencies": [],
+      "ResourceDependencies": [],
+      "Successors": []
+    },
+    {
+      "Activity": {
+        "Id": 2,
+        "Name": "Task B",
+        "Notes": "",
+        "TargetWorkStreams": [],
+        "TargetResources": [
+          3
+        ],
+        "TargetResourceOperator": 0,
+        "AllocatedToResources": [
+          3
+        ],
+        "CanBeRemoved": false,
+        "HasNoCost": false,
+        "HasNoBilling": false,
+        "HasNoEffort": false,
+        "HasNoRisk": false,
+        "Duration": 4,
+        "FreeSlack": 1,
+        "EarliestStartTime": 0,
+        "LatestFinishTime": 5,
+        "Trackers": []
+      },
+      "Dependencies": [],
+      "PlanningDependencies": [],
+      "ResourceDependencies": [],
+      "Successors": []
+    },
+    {
+      "Activity": {
+        "Id": 3,
+        "Name": "Task C",
+        "Notes": "",
+        "TargetWorkStreams": [],
+        "TargetResources": [
+          3,
+          4
+        ],
+        "TargetResourceOperator": 1,
+        "AllocatedToResources": [
+          4
+        ],
+        "CanBeRemoved": false,
+        "HasNoCost": false,
+        "HasNoBilling": false,
+        "HasNoEffort": false,
+        "HasNoRisk": false,
+        "Duration": 3,
+        "FreeSlack": 2,
+        "EarliestStartTime": 0,
+        "LatestFinishTime": 5,
+        "Trackers": []
+      },
+      "Dependencies": [],
+      "PlanningDependencies": [],
+      "ResourceDependencies": [],
+      "Successors": []
+    }
+  ],
+  "ArrowGraphSettings": {
+    "ActivitySeverities": [
+      {
+        "SlackLimit": 1,
+        "CriticalityWeight": 4.0,
+        "FibonacciWeight": 4.23606797749979,
+        "ColorFormat": {
+          "A": 255,
+          "R": 0,
+          "G": 0,
+          "B": 0
+        }
+      },
+      {
+        "SlackLimit": 9,
+        "CriticalityWeight": 3.0,
+        "FibonacciWeight": 2.618033988749895,
+        "ColorFormat": {
+          "A": 255,
+          "R": 255,
+          "G": 0,
+          "B": 0
+        }
+      },
+      {
+        "SlackLimit": 25,
+        "CriticalityWeight": 2.0,
+        "FibonacciWeight": 1.618033988749895,
+        "ColorFormat": {
+          "A": 255,
+          "R": 255,
+          "G": 215,
+          "B": 0
+        }
+      },
+      {
+        "SlackLimit": 2147483647,
+        "CriticalityWeight": 1.0,
+        "FibonacciWeight": 1.0,
+        "ColorFormat": {
+          "A": 255,
+          "R": 0,
+          "G": 128,
+          "B": 0
+        }
+      }
+    ],
+    "EdgeTypeFormats": [
+      {
+        "EdgeType": 0,
+        "EdgeDashStyle": 0,
+        "EdgeWeightStyle": 0
+      },
+      {
+        "EdgeType": 1,
+        "EdgeDashStyle": 0,
+        "EdgeWeightStyle": 1
+      },
+      {
+        "EdgeType": 2,
+        "EdgeDashStyle": 1,
+        "EdgeWeightStyle": 0
+      },
+      {
+        "EdgeType": 3,
+        "EdgeDashStyle": 1,
+        "EdgeWeightStyle": 1
+      }
+    ]
+  },
+  "ResourceSettings": {
+    "Resources": [
+      {
+        "Id": 1,
+        "Name": "Res A",
+        "Notes": "",
+        "IsExplicitTarget": true,
+        "IsInactive": false,
+        "InterActivityAllocationType": 0,
+        "InterActivityPhases": [],
+        "UnitCost": 1.0,
+        "UnitBilling": 1.0,
+        "FixedCost": 0.0,
+        "FixedBilling": 0.0,
+        "DisplayOrder": 0,
+        "ColorFormat": {
+          "A": 255,
+          "R": 218,
+          "G": 188,
+          "B": 132
+        },
+        "Trackers": []
+      },
+      {
+        "Id": 2,
+        "Name": "Res B",
+        "Notes": "",
+        "IsExplicitTarget": true,
+        "IsInactive": false,
+        "InterActivityAllocationType": 0,
+        "InterActivityPhases": [],
+        "UnitCost": 1.0,
+        "UnitBilling": 1.0,
+        "FixedCost": 0.0,
+        "FixedBilling": 0.0,
+        "DisplayOrder": 0,
+        "ColorFormat": {
+          "A": 255,
+          "R": 173,
+          "G": 19,
+          "B": 189
+        },
+        "Trackers": []
+      },
+      {
+        "Id": 3,
+        "Name": "Res C",
+        "Notes": "",
+        "IsExplicitTarget": true,
+        "IsInactive": false,
+        "InterActivityAllocationType": 0,
+        "InterActivityPhases": [],
+        "UnitCost": 1.0,
+        "UnitBilling": 1.0,
+        "FixedCost": 0.0,
+        "FixedBilling": 0.0,
+        "DisplayOrder": 0,
+        "ColorFormat": {
+          "A": 255,
+          "R": 111,
+          "G": 252,
+          "B": 30
+        },
+        "Trackers": []
+      },
+      {
+        "Id": 4,
+        "Name": "Res D",
+        "Notes": "",
+        "IsExplicitTarget": true,
+        "IsInactive": false,
+        "InterActivityAllocationType": 0,
+        "InterActivityPhases": [],
+        "UnitCost": 1.0,
+        "UnitBilling": 1.0,
+        "FixedCost": 0.0,
+        "FixedBilling": 0.0,
+        "DisplayOrder": 0,
+        "ColorFormat": {
+          "A": 255,
+          "R": 166,
+          "G": 32,
+          "B": 114
+        },
+        "Trackers": []
+      }
+    ],
+    "DefaultUnitCost": 1.0,
+    "DefaultUnitBilling": 1.0,
+    "AreDisabled": false
+  },
+  "WorkStreamSettings": {
+    "WorkStreams": []
+  },
+  "DisplaySettings": {
+    "ShowDates": false,
+    "UseClassicDates": false,
+    "UseBusinessDays": true,
+    "HideCost": false,
+    "HideBilling": false,
+    "ArrowGraphShowNames": false,
+    "GanttChartGroupByMode": 1,
+    "GanttChartAnnotationStyle": 1,
+    "GanttChartShowGroupLabels": true,
+    "GanttChartShowProjectFinish": false,
+    "GanttChartShowTracking": false,
+    "GanttChartShowToday": false,
+    "GanttChartShowMilestones": false,
+    "GanttChartShowSlack": false,
+    "ResourceChartAllocationMode": 0,
+    "ResourceChartScheduleMode": 0,
+    "ResourceChartDisplayStyle": 1,
+    "ResourceChartShowToday": false,
+    "ResourceChartShowMilestones": false,
+    "EarnedValueShowProjections": false,
+    "EarnedValueShowToday": false,
+    "EarnedValueShowMilestones": false
+  },
+  "GraphCompilation": {
+    "DependentActivities": [
+      {
+        "Activity": {
+          "Id": 1,
+          "Name": "Task A",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            1,
+            2
+          ],
+          "TargetResourceOperator": 1,
+          "AllocatedToResources": [
+            1
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoBilling": false,
+          "HasNoEffort": false,
+          "HasNoRisk": false,
+          "Duration": 5,
+          "FreeSlack": 0,
+          "EarliestStartTime": 0,
+          "LatestFinishTime": 5,
+          "Trackers": []
+        },
+        "Dependencies": [],
+        "PlanningDependencies": [],
+        "ResourceDependencies": [],
+        "Successors": []
+      },
+      {
+        "Activity": {
+          "Id": 2,
+          "Name": "Task B",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            3
+          ],
+          "TargetResourceOperator": 0,
+          "AllocatedToResources": [
+            3
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoBilling": false,
+          "HasNoEffort": false,
+          "HasNoRisk": false,
+          "Duration": 4,
+          "FreeSlack": 1,
+          "EarliestStartTime": 0,
+          "LatestFinishTime": 5,
+          "Trackers": []
+        },
+        "Dependencies": [],
+        "PlanningDependencies": [],
+        "ResourceDependencies": [],
+        "Successors": []
+      },
+      {
+        "Activity": {
+          "Id": 3,
+          "Name": "Task C",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
+          "AllocatedToResources": [
+            4
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoBilling": false,
+          "HasNoEffort": false,
+          "HasNoRisk": false,
+          "Duration": 3,
+          "FreeSlack": 2,
+          "EarliestStartTime": 0,
+          "LatestFinishTime": 5,
+          "Trackers": []
+        },
+        "Dependencies": [],
+        "PlanningDependencies": [],
+        "ResourceDependencies": [],
+        "Successors": []
+      }
+    ],
+    "ResourceSchedules": [
+      {
+        "Resource": {
+          "Id": 1,
+          "Name": "Res A",
+          "Notes": "",
+          "IsExplicitTarget": true,
+          "IsInactive": false,
+          "InterActivityAllocationType": 0,
+          "InterActivityPhases": [],
+          "UnitCost": 1.0,
+          "UnitBilling": 1.0,
+          "FixedCost": 0.0,
+          "FixedBilling": 0.0,
+          "DisplayOrder": 0,
+          "ColorFormat": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          },
+          "Trackers": []
+        },
+        "ScheduledActivities": [
+          {
+            "Id": 1,
+            "Name": "Task A",
+            "HasNoCost": false,
+            "HasNoBilling": false,
+            "HasNoEffort": false,
+            "Duration": 5,
+            "StartTime": 0,
+            "FinishTime": 5
+          }
+        ],
+        "ActivityAllocation": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "CostAllocation": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "BillingAllocation": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "EffortAllocation": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "StartTime": 0,
+        "FinishTime": 5
+      },
+      {
+        "Resource": {
+          "Id": 3,
+          "Name": "Res C",
+          "Notes": "",
+          "IsExplicitTarget": true,
+          "IsInactive": false,
+          "InterActivityAllocationType": 0,
+          "InterActivityPhases": [],
+          "UnitCost": 1.0,
+          "UnitBilling": 1.0,
+          "FixedCost": 0.0,
+          "FixedBilling": 0.0,
+          "DisplayOrder": 0,
+          "ColorFormat": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          },
+          "Trackers": []
+        },
+        "ScheduledActivities": [
+          {
+            "Id": 2,
+            "Name": "Task B",
+            "HasNoCost": false,
+            "HasNoBilling": false,
+            "HasNoEffort": false,
+            "Duration": 4,
+            "StartTime": 0,
+            "FinishTime": 4
+          }
+        ],
+        "ActivityAllocation": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "CostAllocation": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "BillingAllocation": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "EffortAllocation": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "StartTime": 0,
+        "FinishTime": 5
+      },
+      {
+        "Resource": {
+          "Id": 4,
+          "Name": "Res D",
+          "Notes": "",
+          "IsExplicitTarget": true,
+          "IsInactive": false,
+          "InterActivityAllocationType": 0,
+          "InterActivityPhases": [],
+          "UnitCost": 1.0,
+          "UnitBilling": 1.0,
+          "FixedCost": 0.0,
+          "FixedBilling": 0.0,
+          "DisplayOrder": 0,
+          "ColorFormat": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          },
+          "Trackers": []
+        },
+        "ScheduledActivities": [
+          {
+            "Id": 3,
+            "Name": "Task C",
+            "HasNoCost": false,
+            "HasNoBilling": false,
+            "HasNoEffort": false,
+            "Duration": 3,
+            "StartTime": 0,
+            "FinishTime": 3
+          }
+        ],
+        "ActivityAllocation": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "CostAllocation": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "BillingAllocation": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "EffortAllocation": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "StartTime": 0,
+        "FinishTime": 5
+      }
+    ],
+    "CompilationErrors": [],
+    "CyclomaticComplexity": 0,
+    "Duration": 0
+  },
+  "ArrowGraph": {
+    "Edges": [
+      {
+        "Content": {
+          "Id": 1,
+          "Name": "Task A",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            1,
+            2
+          ],
+          "TargetResourceOperator": 1,
+          "AllocatedToResources": [
+            1
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoEffort": false,
+          "Duration": 5,
+          "FreeSlack": 0,
+          "EarliestStartTime": 0,
+          "LatestFinishTime": 5,
+          "Trackers": []
+        }
+      },
+      {
+        "Content": {
+          "Id": 2,
+          "Name": "Task B",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            3
+          ],
+          "TargetResourceOperator": 0,
+          "AllocatedToResources": [
+            3
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoEffort": false,
+          "Duration": 4,
+          "FreeSlack": 0,
+          "EarliestStartTime": 0,
+          "LatestFinishTime": 5,
+          "Trackers": []
+        }
+      },
+      {
+        "Content": {
+          "Id": -2,
+          "TargetWorkStreams": [],
+          "TargetResources": [],
+          "TargetResourceOperator": 0,
+          "AllocatedToResources": [],
+          "CanBeRemoved": true,
+          "HasNoCost": false,
+          "HasNoEffort": false,
+          "Duration": 0,
+          "FreeSlack": 1,
+          "EarliestStartTime": 4,
+          "LatestFinishTime": 5,
+          "Trackers": []
+        }
+      },
+      {
+        "Content": {
+          "Id": 3,
+          "Name": "Task C",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
+          "AllocatedToResources": [
+            4
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoEffort": false,
+          "Duration": 3,
+          "FreeSlack": 0,
+          "EarliestStartTime": 0,
+          "LatestFinishTime": 5,
+          "Trackers": []
+        }
+      },
+      {
+        "Content": {
+          "Id": -3,
+          "TargetWorkStreams": [],
+          "TargetResources": [],
+          "TargetResourceOperator": 0,
+          "AllocatedToResources": [],
+          "CanBeRemoved": true,
+          "HasNoCost": false,
+          "HasNoEffort": false,
+          "Duration": 0,
+          "FreeSlack": 1,
+          "EarliestStartTime": 3,
+          "LatestFinishTime": 5,
+          "Trackers": []
+        }
+      }
+    ],
+    "Nodes": [
+      {
+        "NodeType": 1,
+        "Content": {
+          "Id": -1,
+          "EarliestFinishTime": 0,
+          "LatestFinishTime": 0
+        },
+        "IncomingEdges": [],
+        "OutgoingEdges": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "NodeType": 2,
+        "Content": {
+          "Id": -2,
+          "EarliestFinishTime": 5,
+          "LatestFinishTime": 5
+        },
+        "IncomingEdges": [
+          1,
+          -2
+        ],
+        "OutgoingEdges": []
+      },
+      {
+        "NodeType": 0,
+        "Content": {
+          "Id": -4,
+          "EarliestFinishTime": 4,
+          "LatestFinishTime": 5
+        },
+        "IncomingEdges": [
+          2,
+          -3
+        ],
+        "OutgoingEdges": [
+          -2
+        ]
+      },
+      {
+        "NodeType": 0,
+        "Content": {
+          "Id": -5,
+          "EarliestFinishTime": 3,
+          "LatestFinishTime": 5
+        },
+        "IncomingEdges": [
+          3
+        ],
+        "OutgoingEdges": [
+          -3
+        ]
+      }
+    ],
+    "IsStale": false
+  },
+  "HasStaleOutputs": false
+}
