@@ -9,8 +9,13 @@
         "Name": "Task A",
         "Notes": "",
         "TargetWorkStreams": [],
-        "TargetResources": [],
-        "TargetResourceOperator": 0,
+        "TargetResources": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "TargetResourceOperator": 1,
         "AllocatedToResources": [
           1
         ],
@@ -20,9 +25,9 @@
         "HasNoEffort": false,
         "HasNoRisk": false,
         "Duration": 5,
-        "FreeSlack": 0,
+        "FreeSlack": 2,
         "EarliestStartTime": 0,
-        "LatestFinishTime": 5,
+        "LatestFinishTime": 7,
         "Trackers": []
       },
       "Dependencies": [],
@@ -36,8 +41,13 @@
         "Name": "Task B",
         "Notes": "",
         "TargetWorkStreams": [],
-        "TargetResources": [],
-        "TargetResourceOperator": 0,
+        "TargetResources": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "TargetResourceOperator": 1,
         "AllocatedToResources": [
           2
         ],
@@ -47,9 +57,9 @@
         "HasNoEffort": false,
         "HasNoRisk": false,
         "Duration": 4,
-        "FreeSlack": 1,
+        "FreeSlack": 0,
         "EarliestStartTime": 0,
-        "LatestFinishTime": 5,
+        "LatestFinishTime": 4,
         "Trackers": []
       },
       "Dependencies": [],
@@ -63,8 +73,13 @@
         "Name": "Task C",
         "Notes": "",
         "TargetWorkStreams": [],
-        "TargetResources": [],
-        "TargetResourceOperator": 0,
+        "TargetResources": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "TargetResourceOperator": 1,
         "AllocatedToResources": [
           3
         ],
@@ -74,14 +89,114 @@
         "HasNoEffort": false,
         "HasNoRisk": false,
         "Duration": 3,
-        "FreeSlack": 2,
+        "FreeSlack": 0,
         "EarliestStartTime": 0,
-        "LatestFinishTime": 5,
+        "LatestFinishTime": 3,
         "Trackers": []
       },
       "Dependencies": [],
       "PlanningDependencies": [],
       "ResourceDependencies": [],
+      "Successors": []
+    },
+    {
+      "Activity": {
+        "Id": 4,
+        "Name": "Task D",
+        "Notes": "",
+        "TargetWorkStreams": [],
+        "TargetResources": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "TargetResourceOperator": 1,
+        "AllocatedToResources": [
+          4
+        ],
+        "CanBeRemoved": false,
+        "HasNoCost": false,
+        "HasNoBilling": false,
+        "HasNoEffort": false,
+        "HasNoRisk": false,
+        "Duration": 5,
+        "FreeSlack": 2,
+        "EarliestStartTime": 0,
+        "LatestFinishTime": 7,
+        "Trackers": []
+      },
+      "Dependencies": [],
+      "PlanningDependencies": [],
+      "ResourceDependencies": [],
+      "Successors": []
+    },
+    {
+      "Activity": {
+        "Id": 5,
+        "Name": "Task E",
+        "Notes": "",
+        "TargetWorkStreams": [],
+        "TargetResources": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "TargetResourceOperator": 1,
+        "AllocatedToResources": [
+          3
+        ],
+        "CanBeRemoved": false,
+        "HasNoCost": false,
+        "HasNoBilling": false,
+        "HasNoEffort": false,
+        "HasNoRisk": false,
+        "Duration": 4,
+        "FreeSlack": 0,
+        "EarliestStartTime": 3,
+        "LatestFinishTime": 7,
+        "Trackers": []
+      },
+      "Dependencies": [],
+      "PlanningDependencies": [],
+      "ResourceDependencies": [
+        3
+      ],
+      "Successors": []
+    },
+    {
+      "Activity": {
+        "Id": 6,
+        "Name": "Task F",
+        "Notes": "",
+        "TargetWorkStreams": [],
+        "TargetResources": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "TargetResourceOperator": 1,
+        "AllocatedToResources": [
+          2
+        ],
+        "CanBeRemoved": false,
+        "HasNoCost": false,
+        "HasNoBilling": false,
+        "HasNoEffort": false,
+        "HasNoRisk": false,
+        "Duration": 3,
+        "FreeSlack": 0,
+        "EarliestStartTime": 4,
+        "LatestFinishTime": 7,
+        "Trackers": []
+      },
+      "Dependencies": [],
+      "PlanningDependencies": [],
+      "ResourceDependencies": [
+        2
+      ],
       "Successors": []
     }
   ],
@@ -281,8 +396,13 @@
           "Name": "Task A",
           "Notes": "",
           "TargetWorkStreams": [],
-          "TargetResources": [],
-          "TargetResourceOperator": 0,
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
           "AllocatedToResources": [
             1
           ],
@@ -292,9 +412,9 @@
           "HasNoEffort": false,
           "HasNoRisk": false,
           "Duration": 5,
-          "FreeSlack": 0,
+          "FreeSlack": 2,
           "EarliestStartTime": 0,
-          "LatestFinishTime": 5,
+          "LatestFinishTime": 7,
           "Trackers": []
         },
         "Dependencies": [],
@@ -308,8 +428,13 @@
           "Name": "Task B",
           "Notes": "",
           "TargetWorkStreams": [],
-          "TargetResources": [],
-          "TargetResourceOperator": 0,
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
           "AllocatedToResources": [
             2
           ],
@@ -319,9 +444,9 @@
           "HasNoEffort": false,
           "HasNoRisk": false,
           "Duration": 4,
-          "FreeSlack": 1,
+          "FreeSlack": 0,
           "EarliestStartTime": 0,
-          "LatestFinishTime": 5,
+          "LatestFinishTime": 4,
           "Trackers": []
         },
         "Dependencies": [],
@@ -335,8 +460,13 @@
           "Name": "Task C",
           "Notes": "",
           "TargetWorkStreams": [],
-          "TargetResources": [],
-          "TargetResourceOperator": 0,
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
           "AllocatedToResources": [
             3
           ],
@@ -346,14 +476,114 @@
           "HasNoEffort": false,
           "HasNoRisk": false,
           "Duration": 3,
-          "FreeSlack": 2,
+          "FreeSlack": 0,
           "EarliestStartTime": 0,
-          "LatestFinishTime": 5,
+          "LatestFinishTime": 3,
           "Trackers": []
         },
         "Dependencies": [],
         "PlanningDependencies": [],
         "ResourceDependencies": [],
+        "Successors": []
+      },
+      {
+        "Activity": {
+          "Id": 4,
+          "Name": "Task D",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
+          "AllocatedToResources": [
+            4
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoBilling": false,
+          "HasNoEffort": false,
+          "HasNoRisk": false,
+          "Duration": 5,
+          "FreeSlack": 2,
+          "EarliestStartTime": 0,
+          "LatestFinishTime": 7,
+          "Trackers": []
+        },
+        "Dependencies": [],
+        "PlanningDependencies": [],
+        "ResourceDependencies": [],
+        "Successors": []
+      },
+      {
+        "Activity": {
+          "Id": 5,
+          "Name": "Task E",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
+          "AllocatedToResources": [
+            3
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoBilling": false,
+          "HasNoEffort": false,
+          "HasNoRisk": false,
+          "Duration": 4,
+          "FreeSlack": 0,
+          "EarliestStartTime": 3,
+          "LatestFinishTime": 7,
+          "Trackers": []
+        },
+        "Dependencies": [],
+        "PlanningDependencies": [],
+        "ResourceDependencies": [
+          3
+        ],
+        "Successors": []
+      },
+      {
+        "Activity": {
+          "Id": 6,
+          "Name": "Task F",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
+          "AllocatedToResources": [
+            2
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoBilling": false,
+          "HasNoEffort": false,
+          "HasNoRisk": false,
+          "Duration": 3,
+          "FreeSlack": 0,
+          "EarliestStartTime": 4,
+          "LatestFinishTime": 7,
+          "Trackers": []
+        },
+        "Dependencies": [],
+        "PlanningDependencies": [],
+        "ResourceDependencies": [
+          2
+        ],
         "Successors": []
       }
     ],
@@ -397,31 +627,39 @@
           true,
           true,
           true,
-          true
+          true,
+          false,
+          false
         ],
         "CostAllocation": [
           true,
           true,
           true,
           true,
-          true
+          true,
+          false,
+          false
         ],
         "BillingAllocation": [
           true,
           true,
           true,
           true,
-          true
+          true,
+          false,
+          false
         ],
         "EffortAllocation": [
           true,
           true,
           true,
           true,
-          true
+          true,
+          false,
+          false
         ],
         "StartTime": 0,
-        "FinishTime": 5
+        "FinishTime": 7
       },
       {
         "Resource": {
@@ -455,6 +693,16 @@
             "Duration": 4,
             "StartTime": 0,
             "FinishTime": 4
+          },
+          {
+            "Id": 6,
+            "Name": "Task F",
+            "HasNoCost": false,
+            "HasNoBilling": false,
+            "HasNoEffort": false,
+            "Duration": 3,
+            "StartTime": 4,
+            "FinishTime": 7
           }
         ],
         "ActivityAllocation": [
@@ -462,31 +710,39 @@
           true,
           true,
           true,
-          false
+          true,
+          true,
+          true
         ],
         "CostAllocation": [
           true,
           true,
           true,
           true,
-          false
+          true,
+          true,
+          true
         ],
         "BillingAllocation": [
           true,
           true,
           true,
           true,
-          false
+          true,
+          true,
+          true
         ],
         "EffortAllocation": [
           true,
           true,
           true,
           true,
-          false
+          true,
+          true,
+          true
         ],
         "StartTime": 0,
-        "FinishTime": 5
+        "FinishTime": 7
       },
       {
         "Resource": {
@@ -520,9 +776,94 @@
             "Duration": 3,
             "StartTime": 0,
             "FinishTime": 3
+          },
+          {
+            "Id": 5,
+            "Name": "Task E",
+            "HasNoCost": false,
+            "HasNoBilling": false,
+            "HasNoEffort": false,
+            "Duration": 4,
+            "StartTime": 3,
+            "FinishTime": 7
           }
         ],
         "ActivityAllocation": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "CostAllocation": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "BillingAllocation": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "EffortAllocation": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "StartTime": 0,
+        "FinishTime": 7
+      },
+      {
+        "Resource": {
+          "Id": 4,
+          "Name": "Res D",
+          "Notes": "",
+          "IsExplicitTarget": false,
+          "IsInactive": false,
+          "InterActivityAllocationType": 0,
+          "InterActivityPhases": [],
+          "UnitCost": 1.0,
+          "UnitBilling": 1.0,
+          "FixedCost": 0.0,
+          "FixedBilling": 0.0,
+          "DisplayOrder": 0,
+          "ColorFormat": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          },
+          "Trackers": []
+        },
+        "ScheduledActivities": [
+          {
+            "Id": 4,
+            "Name": "Task D",
+            "HasNoCost": false,
+            "HasNoBilling": false,
+            "HasNoEffort": false,
+            "Duration": 5,
+            "StartTime": 0,
+            "FinishTime": 5
+          }
+        ],
+        "ActivityAllocation": [
+          true,
+          true,
           true,
           true,
           true,
@@ -533,10 +874,14 @@
           true,
           true,
           true,
+          true,
+          true,
           false,
           false
         ],
         "BillingAllocation": [
+          true,
+          true,
           true,
           true,
           true,
@@ -547,11 +892,13 @@
           true,
           true,
           true,
+          true,
+          true,
           false,
           false
         ],
         "StartTime": 0,
-        "FinishTime": 5
+        "FinishTime": 7
       }
     ],
     "CompilationErrors": [],
@@ -566,8 +913,13 @@
           "Name": "Task A",
           "Notes": "",
           "TargetWorkStreams": [],
-          "TargetResources": [],
-          "TargetResourceOperator": 0,
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
           "AllocatedToResources": [
             1
           ],
@@ -575,9 +927,9 @@
           "HasNoCost": false,
           "HasNoEffort": false,
           "Duration": 5,
-          "FreeSlack": 0,
+          "FreeSlack": 2,
           "EarliestStartTime": 0,
-          "LatestFinishTime": 5,
+          "LatestFinishTime": 7,
           "Trackers": []
         }
       },
@@ -587,8 +939,13 @@
           "Name": "Task B",
           "Notes": "",
           "TargetWorkStreams": [],
-          "TargetResources": [],
-          "TargetResourceOperator": 0,
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
           "AllocatedToResources": [
             2
           ],
@@ -598,24 +955,7 @@
           "Duration": 4,
           "FreeSlack": 0,
           "EarliestStartTime": 0,
-          "LatestFinishTime": 5,
-          "Trackers": []
-        }
-      },
-      {
-        "Content": {
-          "Id": -2,
-          "TargetWorkStreams": [],
-          "TargetResources": [],
-          "TargetResourceOperator": 0,
-          "AllocatedToResources": [],
-          "CanBeRemoved": true,
-          "HasNoCost": false,
-          "HasNoEffort": false,
-          "Duration": 0,
-          "FreeSlack": 1,
-          "EarliestStartTime": 4,
-          "LatestFinishTime": 5,
+          "LatestFinishTime": 4,
           "Trackers": []
         }
       },
@@ -625,8 +965,13 @@
           "Name": "Task C",
           "Notes": "",
           "TargetWorkStreams": [],
-          "TargetResources": [],
-          "TargetResourceOperator": 0,
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
           "AllocatedToResources": [
             3
           ],
@@ -636,13 +981,39 @@
           "Duration": 3,
           "FreeSlack": 0,
           "EarliestStartTime": 0,
-          "LatestFinishTime": 5,
+          "LatestFinishTime": 3,
           "Trackers": []
         }
       },
       {
         "Content": {
-          "Id": -3,
+          "Id": 4,
+          "Name": "Task D",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
+          "AllocatedToResources": [
+            4
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoEffort": false,
+          "Duration": 5,
+          "FreeSlack": 2,
+          "EarliestStartTime": 0,
+          "LatestFinishTime": 7,
+          "Trackers": []
+        }
+      },
+      {
+        "Content": {
+          "Id": -4,
           "TargetWorkStreams": [],
           "TargetResources": [],
           "TargetResourceOperator": 0,
@@ -651,9 +1022,61 @@
           "HasNoCost": false,
           "HasNoEffort": false,
           "Duration": 0,
-          "FreeSlack": 1,
+          "FreeSlack": 0,
+          "EarliestStartTime": 7,
+          "LatestFinishTime": 7,
+          "Trackers": []
+        }
+      },
+      {
+        "Content": {
+          "Id": 5,
+          "Name": "Task E",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
+          "AllocatedToResources": [
+            3
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoEffort": false,
+          "Duration": 4,
+          "FreeSlack": 0,
           "EarliestStartTime": 3,
-          "LatestFinishTime": 5,
+          "LatestFinishTime": 7,
+          "Trackers": []
+        }
+      },
+      {
+        "Content": {
+          "Id": 6,
+          "Name": "Task F",
+          "Notes": "",
+          "TargetWorkStreams": [],
+          "TargetResources": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "TargetResourceOperator": 1,
+          "AllocatedToResources": [
+            2
+          ],
+          "CanBeRemoved": false,
+          "HasNoCost": false,
+          "HasNoEffort": false,
+          "Duration": 3,
+          "FreeSlack": 0,
+          "EarliestStartTime": 4,
+          "LatestFinishTime": 7,
           "Trackers": []
         }
       }
@@ -670,19 +1093,20 @@
         "OutgoingEdges": [
           1,
           2,
-          3
+          3,
+          4
         ]
       },
       {
         "NodeType": 2,
         "Content": {
           "Id": -2,
-          "EarliestFinishTime": 5,
-          "LatestFinishTime": 5
+          "EarliestFinishTime": 7,
+          "LatestFinishTime": 7
         },
         "IncomingEdges": [
           1,
-          -2
+          -4
         ],
         "OutgoingEdges": []
       },
@@ -691,14 +1115,13 @@
         "Content": {
           "Id": -4,
           "EarliestFinishTime": 4,
-          "LatestFinishTime": 5
+          "LatestFinishTime": 4
         },
         "IncomingEdges": [
-          2,
-          -3
+          2
         ],
         "OutgoingEdges": [
-          -2
+          6
         ]
       },
       {
@@ -706,13 +1129,29 @@
         "Content": {
           "Id": -5,
           "EarliestFinishTime": 3,
-          "LatestFinishTime": 5
+          "LatestFinishTime": 3
         },
         "IncomingEdges": [
           3
         ],
         "OutgoingEdges": [
-          -3
+          5
+        ]
+      },
+      {
+        "NodeType": 0,
+        "Content": {
+          "Id": -6,
+          "EarliestFinishTime": 7,
+          "LatestFinishTime": 7
+        },
+        "IncomingEdges": [
+          4,
+          6,
+          5
+        ],
+        "OutgoingEdges": [
+          -4
         ]
       }
     ],

@@ -172,7 +172,7 @@
     "HideBilling": false,
     "ArrowGraphShowNames": false,
     "GanttChartGroupByMode": 1,
-    "GanttChartAnnotationStyle": 1,
+    "GanttChartAnnotationStyle": 2,
     "GanttChartShowGroupLabels": true,
     "GanttChartShowProjectFinish": false,
     "GanttChartShowTracking": false,

@@ -237,9 +237,9 @@
         "DisplayOrder": 0,
         "ColorFormat": {
           "A": 255,
-          "R": 166,
-          "G": 32,
-          "B": 114
+          "R": 3,
+          "G": 94,
+          "B": 166
         },
         "Trackers": []
       }
@@ -259,7 +259,7 @@
     "HideBilling": false,
     "ArrowGraphShowNames": false,
     "GanttChartGroupByMode": 1,
-    "GanttChartAnnotationStyle": 1,
+    "GanttChartAnnotationStyle": 2,
     "GanttChartShowGroupLabels": true,
     "GanttChartShowProjectFinish": false,
     "GanttChartShowTracking": false,
