@@ -1,7 +1,7 @@
 {
   "Version": "v0.4.4",
-  "ProjectStart": "2025-10-24T00:00:00+01:00",
-  "Today": "2025-10-24T00:00:00+01:00",
+  "ProjectStart": "2025-10-24T01:00:00+02:00",
+  "Today": "2025-10-24T01:00:00+02:00",
   "DependentActivities": [
     {
       "Activity": {
@@ -10,7 +10,7 @@
         "Notes": "",
         "TargetWorkStreams": [],
         "TargetResources": [],
-        "TargetResourceOperator": 1,
+        "TargetResourceOperator": 0,
         "AllocatedToResources": [
           1
         ],
@@ -37,7 +37,7 @@
         "Notes": "",
         "TargetWorkStreams": [],
         "TargetResources": [],
-        "TargetResourceOperator": 1,
+        "TargetResourceOperator": 0,
         "AllocatedToResources": [
           2
         ],
@@ -64,7 +64,7 @@
         "Notes": "",
         "TargetWorkStreams": [],
         "TargetResources": [],
-        "TargetResourceOperator": 1,
+        "TargetResourceOperator": 0,
         "AllocatedToResources": [
           3
         ],
@@ -367,7 +367,7 @@
           "Notes": "",
           "TargetWorkStreams": [],
           "TargetResources": [],
-          "TargetResourceOperator": 1,
+          "TargetResourceOperator": 0,
           "AllocatedToResources": [
             1
           ],
@@ -394,7 +394,7 @@
           "Notes": "",
           "TargetWorkStreams": [],
           "TargetResources": [],
-          "TargetResourceOperator": 1,
+          "TargetResourceOperator": 0,
           "AllocatedToResources": [
             2
           ],
@@ -421,7 +421,7 @@
           "Notes": "",
           "TargetWorkStreams": [],
           "TargetResources": [],
-          "TargetResourceOperator": 1,
+          "TargetResourceOperator": 0,
           "AllocatedToResources": [
             3
           ],
@@ -854,7 +854,7 @@
           "Notes": "",
           "TargetWorkStreams": [],
           "TargetResources": [],
-          "TargetResourceOperator": 1,
+          "TargetResourceOperator": 0,
           "AllocatedToResources": [
             1
           ],
@@ -875,7 +875,7 @@
           "Notes": "",
           "TargetWorkStreams": [],
           "TargetResources": [],
-          "TargetResourceOperator": 1,
+          "TargetResourceOperator": 0,
           "AllocatedToResources": [
             2
           ],
@@ -896,7 +896,7 @@
           "Notes": "",
           "TargetWorkStreams": [],
           "TargetResources": [],
-          "TargetResourceOperator": 1,
+          "TargetResourceOperator": 0,
           "AllocatedToResources": [
             3
           ],
